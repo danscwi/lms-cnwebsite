@@ -1,0 +1,210 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+    /* text-align: center;
+    box-sizing: border-box; */
+    /* background-image: url("ideas/grass_texture.jpg"); */
+    border: 10%;
+    margin: 5%;
+}
+/* This is how you change the background colour of the whole website */
+
+#navbar {
+    background-color: rgb(0, 107, 107);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+#navbar a {
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+    background-color: rgb(0, 107, 107);
+    padding: 1px;
+    margin: 1px;
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+.emptybar {
+    background-color: rgb(0, 107, 107);
+    color: rgb(0, 107, 107,0);
+    height: 40px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color:rgb(18, 223, 18);
+    font-size:36px;
+    font-family: monospace;
+    text-align: center;
+}
+/* This is how to target an element within our HTML  */
+
+h3 {
+    color:rgb(38, 175, 38);
+    font-size:28px;
+    font-family: monospace;
+}
+
+h4 {
+    background-color: rgb(52, 133, 133);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(ideas/grass_texture.jpg) 30 round;
+}
+.lightcyan {
+    color:lightcyan;
+    font-size:25px;
+}
+
+.review {
+    color:lightcyan;
+    font-size: 40px;
+    text-align: center;
+}
+.reviewnames {
+    color:lightcyan;
+    font-size: 18px;
+}
+.covid19 {
+    color:lightyellow;
+    font-size:28;
+    text-align: center;
+    background-color: tomato;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(ideas/grass_texture.jpg) 30 round;
+}
+.covid19:hover {
+    color: yellow;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.resize {
+    color:lightcyan;
+    font-size: 18px;
+}
+.alignmentc {
+    text-align: center;
+}
+.itemalignc {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 1px;
+}
+
+.imgsize1 {
+    width: 100%;
+}
+
+.imagescaler {
+    display: flex;
+    width: 100%;
+    padding: 1px;
+    margin: 1px;
+}
+
+.serviceimage {
+    border: 10px solid transparent;
+    /* border-image: url(ideas/grass_texture.jpg) 30 round; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 1px;
+}
+
+.followdetails {
+    display: flex;
+    text-align: left;
+    padding: 1%;
+}
+
+.sidetoside {
+    display: flex;
+    flex-wrap: wrap;
+}
+​
+.column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grassy {
+    display: flex;
+    background-image: url("ideas/grass_texture.jpg");
+    justify-content: center;
+}
+
+.borderimg {
+    border: 10px solid transparent;
+    padding: 1px;
+    border-image: url(ideas/grass_texture.jpg) 30 round;
+  }
+
+.callemail {
+    font-size: 25px;
+    text-align: left;
+}
+
+.lawnexamples {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+.titleheading {
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.meettheteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbanner {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border: 15px solid transparent;
+    border-image: url(ideas/grass_texture.jpg) 30 round;
+}
